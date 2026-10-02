@@ -1,99 +1,605 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GeoPhoto Privacy Policy</title>
-<meta name="description" content="Privacy Policy for GeoPhoto.">
-<link rel="stylesheet" href="../styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>GeoPhoto Privacy Policy</title>
+
+  <meta
+    name="description"
+    content="Privacy Policy for GeoPhoto."
+  >
+
+  <link
+    rel="stylesheet"
+    href="../styles.css"
+  >
 </head>
+
+
 <body>
-<header class="topbar"><div class="inner">
-  <a class="brand" href="../index.html"><span class="logo">G</span><span>GeoPhoto</span></a>
-  <nav class="nav"><a href="../index.html">Apps</a><a href="#contact">Contact</a></nav>
-</div></header>
+
+<header class="topbar">
+
+  <div class="inner">
+
+    <a
+      class="brand"
+      href="../index.html"
+    >
+      <span class="logo">G</span>
+      <span>GeoPhoto</span>
+    </a>
+
+
+    <nav class="nav">
+
+      <a href="../index.html">
+        Apps
+      </a>
+
+      <a href="#contact">
+        Contact
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
 
 <main class="shell">
+
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+
   <section class="policy-header">
-    <span class="eyebrow">GeoPhoto</span>
-    <h1>Privacy Policy</h1>
-    <p class="muted mono">Effective: 30 September 2026</p>
+
+    <span class="eyebrow">
+      GeoPhoto
+    </span>
+
+    <h1>
+      Privacy Policy
+    </h1>
+
+    <p class="muted mono">
+      Effective: 2 October 2026
+    </p>
+
   </section>
+
+
+
+  <!-- =====================================================
+       INTRODUCTION
+  ====================================================== -->
 
   <section class="card">
-    <p>This Privacy Policy explains how <strong>GeoPhoto</strong> handles information when you use the app. GeoPhoto is a field-survey GPS photography application that can capture photographs, attach location information, organize photos into projects, display stored locations on maps, and export project data.</p>
-    <p>GeoPhoto does not require an account and does not include advertising, in-app purchases, Firebase Analytics, Google Analytics, Facebook SDK, or an advertising-ID integration.</p>
+
+    <p>
+      This Privacy Policy explains how
+      <strong>GeoPhoto</strong>
+      handles information when you use the app.
+      GeoPhoto is a field-survey GPS photography application
+      that can capture photographs, attach location information,
+      organize photos into projects, display stored locations on
+      maps, and export project data.
+    </p>
+
+    <p>
+      GeoPhoto does not require an account and does not include
+      advertising, in-app purchases, Firebase Analytics,
+      Google Analytics, Facebook SDK, or an advertising-ID
+      integration.
+    </p>
+
   </section>
 
-  <section class="card"><h2>1. Information GeoPhoto handles</h2>
+
+
+  <!-- =====================================================
+       1. INFORMATION
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      1. Information GeoPhoto handles
+    </h2>
+
     <ul>
-      <li>Precise or approximate device location, including latitude, longitude, accuracy, provider and fix age.</li>
-      <li>Photographs captured with the app.</li>
-      <li>Project names, filenames, capture identifiers, timestamps and survey metadata.</li>
-      <li>Exported project data such as XLSX and KML files.</li>
-      <li>Technical information required by mapping and platform services.</li>
+
+      <li>
+        Precise or approximate device location, including
+        latitude, longitude, accuracy, provider and fix age.
+      </li>
+
+      <li>
+        Photographs captured with the app.
+      </li>
+
+      <li>
+        Project names, filenames, capture identifiers,
+        timestamps and survey metadata.
+      </li>
+
+      <li>
+        Exported project data such as XLSX and KML files.
+      </li>
+
+      <li>
+        Technical information required by mapping and
+        platform services.
+      </li>
+
     </ul>
+
   </section>
 
-  <section class="card"><h2>2. Storage</h2>
-    <p>Captured photographs and related sidecar metadata are stored in user-accessible storage selected through Android's storage framework. App-private databases and preferences are used to maintain indexes and operational state.</p>
-    <p>GeoPhoto does not contain an app-defined server that automatically uploads your photographs or project files. You may explicitly share files or save them to a storage provider that you choose.</p>
-    <p>Depending on Android device and backup settings, eligible app-private data may also be included in operating-system-managed backup or device-transfer services.</p>
+
+
+  <!-- =====================================================
+       2. STORAGE AND BACKUP
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      2. Storage and backup
+    </h2>
+
+    <p>
+      Captured photographs and related GeoPhoto sidecar metadata
+      are stored in user-accessible storage selected through
+      Android's storage framework.
+    </p>
+
+    <p>
+      GeoPhoto also uses app-private databases, preferences and
+      temporary files for operational purposes such as capture
+      processing, recovery and rebuilding the photo library.
+    </p>
+
+    <p>
+      GeoPhoto does not contain an app-defined server that
+      automatically uploads your photographs or project files.
+      You may explicitly share files or save them to a storage
+      provider that you choose.
+    </p>
+
+    <p>
+      GeoPhoto disables Android cloud backup of its app-private
+      data and excludes that data from Android device-to-device
+      transfer. This includes operational capture jobs,
+      temporary capture files, the rebuildable photo index and
+      app preferences.
+    </p>
+
+    <p>
+      After reinstalling GeoPhoto or moving to another device,
+      you may need to reconnect your existing GeoPhoto storage
+      folder so the app can rebuild the published photo library.
+    </p>
+
+    <p>
+      Photos, GeoPhoto sidecars, project metadata and exports
+      stored in user-selected shared storage are not part of
+      GeoPhoto's private-app backup. They may still be backed up
+      or transferred independently by your device, storage
+      provider, cloud service or other applications that you
+      choose to use.
+    </p>
+
   </section>
 
-  <section class="card"><h2>3. Location</h2>
-    <p>Location is used for survey coordinates, GPS accuracy, photo stamps, map placement and project exports. Location information may be written into the photo, EXIF metadata, GeoPhoto sidecar metadata, local indexes and export files.</p>
-    <p>GeoPhoto does not request Android background-location permission.</p>
+
+
+  <!-- =====================================================
+       3. LOCATION
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      3. Location
+    </h2>
+
+    <p>
+      Location is used for survey coordinates, GPS accuracy,
+      photo stamps, map placement and project exports.
+      Location information may be written into the photo,
+      EXIF metadata, GeoPhoto sidecar metadata, local indexes
+      and export files.
+    </p>
+
+    <p>
+      GeoPhoto does not request Android background-location
+      permission.
+    </p>
+
+    <p>
+      Live device location is requested only while features that
+      require it are actively being used, such as the Home GPS
+      telemetry or Camera screen. GeoPhoto does not provide a
+      remote live-location tracking service.
+    </p>
+
   </section>
 
-  <section class="card"><h2>4. Camera and media access</h2>
-    <p>Camera permission is used to capture survey photographs. GeoPhoto may request Android media-location access when required to read original location metadata from saved images for verification.</p>
+
+
+  <!-- =====================================================
+       4. CAMERA
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      4. Camera and media access
+    </h2>
+
+    <p>
+      Camera permission is used to capture survey photographs.
+    </p>
+
+    <p>
+      GeoPhoto may request Android media-location access when
+      required to read original location metadata from saved
+      images for verification.
+    </p>
+
   </section>
 
-  <section class="card"><h2>5. Google Maps and Google Play services</h2>
-    <p>GeoPhoto uses Google Maps SDK for Android for interactive map features and Google Play services for location functionality. Google may receive technical and usage information according to its own policies.</p>
-    <p>GeoPhoto does not use Google Maps imagery as the permanent map image burned into survey photographs.</p>
-    <p><a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a></p>
+
+
+  <!-- =====================================================
+       5. GOOGLE MAPS
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      5. Google Maps and Google Play services
+    </h2>
+
+    <p>
+      GeoPhoto uses Google Maps SDK for Android for interactive
+      map features and Google Play services for location
+      functionality.
+    </p>
+
+    <p>
+      Google may receive technical and usage information
+      according to its own policies when these services are used.
+    </p>
+
+    <p>
+      GeoPhoto does not use Google Maps imagery as the permanent
+      map image burned into survey photographs.
+    </p>
+
+    <p>
+      <a
+        href="https://policies.google.com/privacy"
+        rel="noopener noreferrer"
+      >
+        Google Privacy Policy
+      </a>
+    </p>
+
   </section>
 
-  <section class="card"><h2>6. OpenStreetMap</h2>
-    <p>When an online mini-map is generated for a photo stamp, GeoPhoto may request a small number of tiles from OpenStreetMap's public tile service. Requests reveal the requested map area and normal network information such as IP address and the app User-Agent.</p>
-    <p>GeoPhoto does not use the OpenStreetMap public tile service to download offline map regions. When the map cannot be loaded, GeoPhoto uses a locally rendered offline location panel.</p>
-    <p><a href="https://www.openstreetmap.org/copyright" rel="noopener noreferrer">OpenStreetMap copyright and attribution</a></p>
+
+
+  <!-- =====================================================
+       6. OPENSTREETMAP
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      6. OpenStreetMap
+    </h2>
+
+    <p>
+      When an online mini-map is generated for a photo stamp,
+      GeoPhoto may request a small number of tiles from
+      OpenStreetMap's public tile service.
+    </p>
+
+    <p>
+      These requests reveal the requested map area and normal
+      network information such as the device's IP address and
+      the GeoPhoto application User-Agent.
+    </p>
+
+    <p>
+      GeoPhoto does not use the OpenStreetMap public tile
+      service to download offline map regions.
+    </p>
+
+    <p>
+      When an online map cannot be loaded, GeoPhoto uses a
+      locally rendered offline location panel instead.
+    </p>
+
+    <p>
+      Online map stamps display OpenStreetMap attribution.
+    </p>
+
+    <p>
+      <a
+        href="https://www.openstreetmap.org/copyright"
+        rel="noopener noreferrer"
+      >
+        OpenStreetMap copyright and attribution
+      </a>
+    </p>
+
   </section>
 
-  <section class="card"><h2>7. Android Geocoder</h2>
-    <p>GeoPhoto may use Android's Geocoder service to resolve location information for display. The provider and network implementation can vary by Android device.</p>
+
+
+  <!-- =====================================================
+       7. ANDROID GEOCODER
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      7. Android Geocoder
+    </h2>
+
+    <p>
+      GeoPhoto may use Android's Geocoder service to resolve
+      location information for display.
+    </p>
+
+    <p>
+      The geocoding provider and network implementation can
+      vary by Android device. Captured coordinates may therefore
+      be processed by the geocoding service configured by the
+      device.
+    </p>
+
   </section>
 
-  <section class="card"><h2>8. Sharing and exports</h2>
-    <p>GeoPhoto can share selected photos and create XLSX/KML exports. Sharing occurs only after you select a destination using Android's sharing or storage interfaces. Receiving apps/providers may apply their own privacy policies.</p>
+
+
+  <!-- =====================================================
+       8. SHARING
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      8. Sharing and exports
+    </h2>
+
+    <p>
+      GeoPhoto can share selected photographs and create project
+      exports such as XLSX and KML files.
+    </p>
+
+    <p>
+      Sharing occurs only after you select a destination using
+      Android's sharing or storage interfaces.
+    </p>
+
+    <p>
+      Files shared with another application, cloud service or
+      storage provider may contain survey coordinates and other
+      project metadata. Those services may process the files
+      according to their own privacy policies.
+    </p>
+
   </section>
 
-  <section class="card"><h2>9. Analytics, advertising and payments</h2>
-    <p>GeoPhoto does not include advertising SDKs, Firebase Analytics, Google Analytics, Facebook SDK, Crashlytics, an advertising-ID integration, subscriptions, in-app purchases or payment processing.</p>
+
+
+  <!-- =====================================================
+       9. ANALYTICS / ADS / PAYMENTS
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      9. Analytics, advertising and payments
+    </h2>
+
+    <p>
+      GeoPhoto does not include advertising SDKs, Firebase
+      Analytics, Google Analytics, Facebook SDK, Crashlytics,
+      an advertising-ID integration, subscriptions,
+      in-app purchases or payment processing.
+    </p>
+
+    <p>
+      Third-party platform components such as Google Maps and
+      Google Play services may perform their own service-related
+      diagnostics and telemetry according to their respective
+      policies.
+    </p>
+
   </section>
 
-  <section class="card"><h2>10. Retention and deletion</h2>
-    <p>Survey photographs, sidecars and exports remain in the storage location you selected until deleted. Clearing app data removes app-private state but does not necessarily remove photographs or exports stored in shared/user-selected storage.</p>
+
+
+  <!-- =====================================================
+       10. RETENTION / DELETION
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      10. Retention and deletion
+    </h2>
+
+    <p>
+      Survey photographs, GeoPhoto sidecars, project metadata
+      and exports remain in the storage location you selected
+      until they are deleted.
+    </p>
+
+    <p>
+      GeoPhoto also maintains app-private operational data while
+      the application is installed. This may include temporary
+      capture-processing information and rebuildable indexes.
+    </p>
+
+    <p>
+      Clearing GeoPhoto's application data removes its
+      app-private state but does not necessarily remove
+      photographs, sidecars, project metadata or exports stored
+      in user-selected shared storage.
+    </p>
+
+    <p>
+      If the published GeoPhoto storage remains available, the
+      app can reconnect to that storage and rebuild its photo
+      library from the surviving published records.
+    </p>
+
   </section>
 
-  <section class="card"><h2>11. Security</h2>
-    <p>GeoPhoto uses Android platform security controls, scoped storage and user-granted permissions. No storage or transmission mechanism can be guaranteed completely secure.</p>
+
+
+  <!-- =====================================================
+       11. SECURITY
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      11. Security
+    </h2>
+
+    <p>
+      GeoPhoto uses Android platform security controls,
+      application sandboxing, scoped storage and user-granted
+      permissions.
+    </p>
+
+    <p>
+      GeoPhoto does not include a GeoPhoto-controlled remote
+      live-location tracking server or background location
+      tracking service.
+    </p>
+
+    <p>
+      No storage or transmission mechanism can be guaranteed
+      completely secure. You should protect your device and
+      any survey records that you export or share.
+    </p>
+
   </section>
 
-  <section class="card"><h2>12. Children's privacy</h2>
-    <p>GeoPhoto is a field-survey utility and is not designed specifically for children.</p>
+
+
+  <!-- =====================================================
+       12. CHILDREN
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      12. Children's privacy
+    </h2>
+
+    <p>
+      GeoPhoto is a field-survey utility and is not designed
+      specifically for children.
+    </p>
+
+    <p>
+      GeoPhoto does not provide account-based data collection
+      directed specifically at children.
+    </p>
+
   </section>
 
-  <section class="card"><h2>13. Changes</h2>
-    <p>This policy may be updated when GeoPhoto features, services or legal requirements change. The effective date will be updated accordingly.</p>
+
+
+  <!-- =====================================================
+       13. CHANGES
+  ====================================================== -->
+
+  <section class="card">
+
+    <h2>
+      13. Changes to this policy
+    </h2>
+
+    <p>
+      This Privacy Policy may be updated when GeoPhoto features,
+      third-party services, security practices or legal
+      requirements change.
+    </p>
+
+    <p>
+      The effective date displayed at the top of this page will
+      be updated when the policy changes.
+    </p>
+
   </section>
 
-  <section id="contact" class="card"><h2>14. Contact</h2>
-    <p><strong>Email:</strong> <span class="mono">manish.alva.ma@gmail.com</span></p>
+
+
+  <!-- =====================================================
+       14. CONTACT
+  ====================================================== -->
+
+  <section
+    id="contact"
+    class="card"
+  >
+
+    <h2>
+      14. Contact
+    </h2>
+
+    <p>
+      For GeoPhoto privacy questions or support:
+    </p>
+
+    <p>
+      <strong>Email:</strong>
+      <a
+        class="mono"
+        href="mailto:manish.alva.ma@gmail.com"
+      >
+        manish.alva.ma@gmail.com
+      </a>
+    </p>
+
   </section>
 
-  <footer><span>© 2026 GeoPhoto</span><a href="../index.html">All apps</a></footer>
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer>
+
+    <span>
+      © 2026 GeoPhoto
+    </span>
+
+    <a href="../index.html">
+      All apps
+    </a>
+
+  </footer>
+
+
 </main>
+
 </body>
 </html>
